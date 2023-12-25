@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <div class="main">
+        <div class="menu ">
+            <p class="border">Home</p>
+            <p class="border">About Us</p>
+            <p class="border">Contact</p>
+            <p class="border">Blog</p>
+            <p class="border">Login</p>
+        </div>
+       </div>
+    </header>
+</body>
+</html>
+
+CSS
+
+*{
+        margin: 0px;
+        font-family: Arial;
+ }
+
+ .main{
+    height: 60px;
+    background-color: rgb(40, 40, 247);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+ }
+
+ .menu p{
+    display: inline;
+    margin-left: 25px;
+}
+.border:hover{
+    border: 0.50px solid white;
+}
+
+.menu{
+    width: 100%;
+    font-weight: 600;
+    
+    
+}
+
+
